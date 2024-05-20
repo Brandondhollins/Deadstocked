@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Yeezy Boost 350 V2 MX Dark Salt.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
