@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "name": "Air Jordan 1 Bred Toe",
+        "description": "This iconic sneaker combines the classic Bred and Black Toe colorways and features high-quality leather.",
+        "image": "Air_Jordan_1_Bred_Toe.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Air Jordan 1 Retro Obsidian",
+        "description": "Featuring a classic UNC color palette, this sneaker is a favorite among collectors for its clean design.",
+        "image": "Air_Jordan_1_Retro_Obsidian.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Air Jordan 1 Shattered Backboard Away",
+        "description": "Known for its premium leather and the iconic colorway inspired by the jersey Michael Jordan wore when he shattered the backboard.",
+        "image": "Air_Jordan_1_Shattered_Backboard_Away.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Air Jordan 1 Shattered Backboard",
+        "description": "This sneaker features a black toe block colorway and a soft, tumbled leather that's luxurious to the touch.",
+        "image": "Air_Jordan_1_Shattered_Backboard.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Air Jordan 1 University Blue",
+        "description": "With its soft, University Blue leather, this pair pays homage to Michael Jordan’s alma mater, UNC Chapel Hill.",
+        "image": "Air_Jordan_1_University_Blue.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Air Jordan 4 Retro Thunder",
+        "description": "This model comes in a striking black and yellow color scheme that stands out in any collection.",
+        "image": "Air_Jordan_4_Retro_Thunder.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Air Jordan 5 Racer Blue",
+        "description": "Features the signature reflective tongue and a bold blue accent, ideal for both casual wear and performance needs.",
+        "image": "Air_Jordan_5_Racer_Blue.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Air Jordan 5 Retro Oreo 2021",
+        "description": "This sneaker revisits the classic Oreo colorway with a fresh twist, perfect for modern street style.",
+        "image": "Air_Jordan_5_Retro_Oreo_2021.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Air Jordan 11 Cool Grey 2021",
+        "description": "The 2021 reissue of the Cool Grey features a sleek design with patent leather and a comfortable fit.",
+        "image": "Air_Jordan_11_Cool_Grey_2021.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Air Jordan 11 Jubilee 25th",
+        "description": "Celebrating 25 years of the silhouette, this sneaker features silver accents and special '25' branding on the heels.",
+        "image": "Air_Jordan_11_Jubilee_25th.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Air Jordan 11 Space Jam 2016",
+        "description": "This model recreates the classic worn by Michael Jordan in the movie 'Space Jam' with its original patent leather cut and Concord purple accents.",
+        "image": "Air_Jordan_11_Space_Jam_2016.jpg"
+    },
+    {
+        "id": 12,
+        "name": "KAWS Air Jordan 4 Black",
+        "description": "A collaboration with artist KAWS, this sneaker features glow-in-the-dark soles with a suede upper and KAWS' iconic 'XX' marking.",
+        "image": "KAWS_Air_Jordan_4_Black.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Yeezy 500 Utility Black",
+        "description": "Known for its minimalist design, this sneaker combines adidas' adiPRENE cushioning technology in a chunky silhouette.",
+        "image": "Yeezy_500_Utility_Black.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Yeezy Boost 350 Pirate Black",
+        "description": "One of the most coveted Yeezy releases, featuring a black Primeknit upper with distinctive red accents.",
+        "image": "Yeezy_Boost_350_Pirate_Black.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Yeezy Boost 350 V2 Carbon Beluga",
+        "description": "This updated version of the Beluga colorway features a darker gray and bold orange stripe down the side.",
+        "image": "Yeezy_Boost_350_V2_Carbon_Beluga.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Yeezy Boost 350 V2 MX Dark Salt",
+        "description": "Featuring a swirled pattern of gray and black, this sneaker is a fresh take on the classic Yeezy silhouette.",
+        "image": "Yeezy_Boost_350_V2_MX_Dark_Salt.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Yeezy Boost 350 V2 MX Rock",
+        "description": "The MX Rock presents a blend of muted earth tones on the innovative Primeknit upper.",
+        "image": "Yeezy_Boost_350_V2_MX_Rock.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Yeezy Boost 700 Utility Black",
+        "description": "This model features a bulky silhouette with overlays of suede, mesh, and a reflective heel.",
+        "image": "Yeezy_Boost_700_Utility_Black.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Yeezy Boost 700 Wave Runner 2017",
+        "description": "The Wave Runner is known for its vibrant color mix and chunky shape, making it a standout piece in the sneaker community.",
+        "image": "Yeezy_Boost_700_Wave_Runner_2017.jpg"
+    }
+]

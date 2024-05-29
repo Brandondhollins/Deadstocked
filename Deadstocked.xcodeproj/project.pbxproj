@@ -16,6 +16,17 @@
 		410996372BFAD76D00505FEF /* DeadstockedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410996362BFAD76D00505FEF /* DeadstockedTests.swift */; };
 		410996412BFAD76D00505FEF /* DeadstockedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410996402BFAD76D00505FEF /* DeadstockedUITests.swift */; };
 		410996432BFAD76D00505FEF /* DeadstockedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410996422BFAD76D00505FEF /* DeadstockedUITestsLaunchTests.swift */; };
+		411A47A22C079D7E00F594C2 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A47A12C079D7E00F594C2 /* MenuRow.swift */; };
+		411A47A82C07A96700F594C2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A47A72C07A96700F594C2 /* ModelData.swift */; };
+		411A47AD2C07ADD300F594C2 /* sneakers.json in Resources */ = {isa = PBXBuildFile; fileRef = 411A47AC2C07ADD300F594C2 /* sneakers.json */; };
+		411A47B02C07B45B00F594C2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 411A47AF2C07B45B00F594C2 /* FirebaseAnalytics */; };
+		411A47B22C07B45B00F594C2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 411A47B12C07B45B00F594C2 /* FirebaseAnalyticsOnDeviceConversion */; };
+		411A47B42C07B45B00F594C2 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 411A47B32C07B45B00F594C2 /* FirebaseAnalyticsSwift */; };
+		411A47B62C07B45B00F594C2 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 411A47B52C07B45B00F594C2 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		411A47B82C07B45B00F594C2 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 411A47B72C07B45B00F594C2 /* FirebaseAppCheck */; };
+		411A47BA2C07B48300F594C2 /* Deadstocked Firebase.plist in Resources */ = {isa = PBXBuildFile; fileRef = 411A47B92C07B48300F594C2 /* Deadstocked Firebase.plist */; };
+		411A47BC2C07B6B000F594C2 /* Sneakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A47BB2C07B6B000F594C2 /* Sneakers.swift */; };
+		411A47BE2C07BD8800F594C2 /* SneakerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A47BD2C07BD8800F594C2 /* SneakerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,12 @@
 		4109963C2BFAD76D00505FEF /* DeadstockedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadstockedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		410996402BFAD76D00505FEF /* DeadstockedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadstockedUITests.swift; sourceTree = "<group>"; };
 		410996422BFAD76D00505FEF /* DeadstockedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadstockedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		411A47A12C079D7E00F594C2 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		411A47A72C07A96700F594C2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		411A47AC2C07ADD300F594C2 /* sneakers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sneakers.json; sourceTree = "<group>"; };
+		411A47B92C07B48300F594C2 /* Deadstocked Firebase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Deadstocked Firebase.plist"; sourceTree = "<group>"; };
+		411A47BB2C07B6B000F594C2 /* Sneakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sneakers.swift; sourceTree = "<group>"; };
+		411A47BD2C07BD8800F594C2 /* SneakerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411A47B42C07B45B00F594C2 /* FirebaseAnalyticsSwift in Frameworks */,
+				411A47B02C07B45B00F594C2 /* FirebaseAnalytics in Frameworks */,
+				411A47B22C07B45B00F594C2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				411A47B82C07B45B00F594C2 /* FirebaseAppCheck in Frameworks */,
+				411A47B62C07B45B00F594C2 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,8 @@
 		410996142BFAD76C00505FEF = {
 			isa = PBXGroup;
 			children = (
+				410996202BFAD76C00505FEF /* DeadstockedApp.swift */,
+				411A47B92C07B48300F594C2 /* Deadstocked Firebase.plist */,
 				4109961F2BFAD76C00505FEF /* Deadstocked */,
 				410996352BFAD76D00505FEF /* DeadstockedTests */,
 				4109963F2BFAD76D00505FEF /* DeadstockedUITests */,
@@ -98,7 +122,10 @@
 		4109961F2BFAD76C00505FEF /* Deadstocked */ = {
 			isa = PBXGroup;
 			children = (
-				410996202BFAD76C00505FEF /* DeadstockedApp.swift */,
+				411A47A62C079FA400F594C2 /* ViewModels */,
+				411A47A52C079F8200F594C2 /* Utilities */,
+				411A47A42C079F7A00F594C2 /* Models */,
+				411A47A32C079F6B00F594C2 /* Components */,
 				410996222BFAD76C00505FEF /* ContentView.swift */,
 				410996242BFAD76D00505FEF /* Assets.xcassets */,
 				410996292BFAD76D00505FEF /* Persistence.swift */,
@@ -133,6 +160,39 @@
 			path = DeadstockedUITests;
 			sourceTree = "<group>";
 		};
+		411A47A32C079F6B00F594C2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				411A47A12C079D7E00F594C2 /* MenuRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		411A47A42C079F7A00F594C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				411A47BB2C07B6B000F594C2 /* Sneakers.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		411A47A52C079F8200F594C2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				411A47A72C07A96700F594C2 /* ModelData.swift */,
+				411A47AC2C07ADD300F594C2 /* sneakers.json */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		411A47A62C079FA400F594C2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				411A47BD2C07BD8800F594C2 /* SneakerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +209,13 @@
 			dependencies = (
 			);
 			name = Deadstocked;
+			packageProductDependencies = (
+				411A47AF2C07B45B00F594C2 /* FirebaseAnalytics */,
+				411A47B12C07B45B00F594C2 /* FirebaseAnalyticsOnDeviceConversion */,
+				411A47B32C07B45B00F594C2 /* FirebaseAnalyticsSwift */,
+				411A47B52C07B45B00F594C2 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				411A47B72C07B45B00F594C2 /* FirebaseAppCheck */,
+			);
 			productName = Deadstocked;
 			productReference = 4109961D2BFAD76C00505FEF /* Deadstocked.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +288,9 @@
 				Base,
 			);
 			mainGroup = 410996142BFAD76C00505FEF;
+			packageReferences = (
+				411A47AE2C07B45B00F594C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4109961E2BFAD76C00505FEF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,6 +307,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411A47BA2C07B48300F594C2 /* Deadstocked Firebase.plist in Resources */,
+				411A47AD2C07ADD300F594C2 /* sneakers.json in Resources */,
 				410996282BFAD76D00505FEF /* Preview Assets.xcassets in Resources */,
 				410996252BFAD76D00505FEF /* Assets.xcassets in Resources */,
 			);
@@ -263,10 +335,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411A47BC2C07B6B000F594C2 /* Sneakers.swift in Sources */,
 				4109962A2BFAD76D00505FEF /* Persistence.swift in Sources */,
 				410996232BFAD76C00505FEF /* ContentView.swift in Sources */,
 				410996212BFAD76C00505FEF /* DeadstockedApp.swift in Sources */,
 				4109962D2BFAD76D00505FEF /* Deadstocked.xcdatamodeld in Sources */,
+				411A47A22C079D7E00F594C2 /* MenuRow.swift in Sources */,
+				411A47BE2C07BD8800F594C2 /* SneakerViewModel.swift in Sources */,
+				411A47A82C07A96700F594C2 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +509,8 @@
 				DEVELOPMENT_TEAM = T8USCJ33J7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Deadstocked;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,6 +540,8 @@
 				DEVELOPMENT_TEAM = T8USCJ33J7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Deadstocked;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -596,6 +676,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		411A47AE2C07B45B00F594C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		411A47AF2C07B45B00F594C2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 411A47AE2C07B45B00F594C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		411A47B12C07B45B00F594C2 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 411A47AE2C07B45B00F594C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		411A47B32C07B45B00F594C2 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 411A47AE2C07B45B00F594C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		411A47B52C07B45B00F594C2 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 411A47AE2C07B45B00F594C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		411A47B72C07B45B00F594C2 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 411A47AE2C07B45B00F594C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4109962B2BFAD76D00505FEF /* Deadstocked.xcdatamodeld */ = {
